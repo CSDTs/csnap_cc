@@ -1,8 +1,8 @@
 (function () {
-   return function (col) {
+    return function (col) {
       
-      this.costumes.contents[this.getCostumeIdx()-1].setColor(col);
-      this.changed();
-      this.drawNew();
-   };
+        this.costumes.contents[this.getCostumeIdx()-1].setColor(col);
+        this.changed();
+        this.drawNew();
+    };
 }());
